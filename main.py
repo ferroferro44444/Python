@@ -25,7 +25,7 @@ class ByteWritter(commands.Bot):
             token=TWITCH_TOKEN,
             client_id=TWITCH_CLIENT_ID,
             prefix=TWITCH_PREFIX,
-            initial_channels=["trinityXpodcast"]  # Sostituisci con il tuo canale
+            initial_channels=["trinityXpodcast","sono_yolo","la_zia_vero"]  # Sostituisci con il tuo canale
         )
 
     async def event_ready(self):
